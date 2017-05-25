@@ -1,0 +1,19 @@
+dataSource:
+    pooled: true
+    jmxExport: true
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    password: tiger
+
+## tO REMOVE APP NAME IN URL (Ques12) //introduction to grails
+grails:
+  app:
+    context:/
+  controllers:
+          upload:
+              maxFileSize: 5242880
+              maxRequestSize: 5242880
+
+
+
